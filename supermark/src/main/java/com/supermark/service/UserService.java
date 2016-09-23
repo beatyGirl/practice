@@ -8,5 +8,5 @@ import com.supermark.entity.User;
  */
 public interface UserService {
 
-    public User getUser(Integer id);
+    public User getUser(String username,String password);
 }
